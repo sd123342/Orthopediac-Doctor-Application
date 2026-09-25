@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Shailesh Patil — Orthopedic Surgeon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top">Dr. Shailesh Patil</a>
+    <ul class="navlinks">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+    </ul>
+    <a class="navbtn" href="#contact">Book a Visit</a>
+  </div>
+</header>
+
+<section class="hero wrap" id="top">
+  <div>
+    <div class="eyebrow">Orthopedic Surgeon, MS (Ortho)</div>
+    <h1>Keeping you moving, at every stage of life</h1>
+    <p class="lede">Dr. Shailesh Patil treats joint, bone and sports injuries with a focus on getting patients back to the activities they care about — with surgery only when it's truly the best option.</p>
+    <div class="ctas">
+      <a class="btn-primary" href="#contact">Book a Consultation</a>
+      <a class="btn-ghost" href="#services">View Specialties</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>18+</b><span>Years in practice</span></div>
+      <div class="stat"><b>12,000+</b><span>Patients treated</span></div>
+      <div class="stat"><b>4,500+</b><span>Successful surgeries</span></div>
+    </div>
+  </div>
+  <svg class="joint-art" viewBox="0 0 420 380" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M120 40 C 100 90, 110 130, 150 150 C 190 170, 190 210, 160 240" stroke="#5C7A72" stroke-width="2.5"/>
+    <circle cx="120" cy="40" r="34" stroke="#1C2B33" stroke-width="2.5"/>
+    <path d="M160 240 C 130 270, 140 310, 190 330" stroke="#B8863B" stroke-width="2.5"/>
+    <circle cx="160" cy="240" r="20" stroke="#1C2B33" stroke-width="2"/>
+    <circle cx="190" cy="330" r="26" stroke="#5C7A72" stroke-width="2.5"/>
+    <path d="M60 150 C 90 160, 110 170, 140 175" stroke="#D9D2C2" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <path d="M230 90 C 260 110, 280 150, 270 190" stroke="#D9D2C2" stroke-width="1.5" stroke-dasharray="3 5"/>
+  </svg>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <ul class="cred-list">
+        <li>MBBS — Grant Medical College, Mumbai</li>
+        <li>MS (Orthopedics) — Seth GS Medical College</li>
+        <li>Fellowship in Joint Replacement &amp; Arthroscopy — Royal Melbourne Hospital, Australia</li>
+        <li>Member, Indian Orthopaedic Association</li>
+      </ul>
+    </div>
+    <div>
+      <div class="section-head">
+        <div class="eyebrow">About Dr. Patil</div>
+        <h2>Care built around your recovery, not just your diagnosis</h2>
+      </div>
+      <p>Dr. Shailesh Patil has spent over eighteen years treating fractures, joint disorders and sports injuries, with a special interest in knee and hip replacement and arthroscopic surgery.</p>
+      <p>His approach starts with the least invasive option that will get a patient back to full function, and he takes time to walk through every choice so patients understand exactly what to expect before, during and after treatment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="services wrap" id="services">
+  <div class="section-head">
+    <div class="eyebrow">Specialties</div>
+    <h2>Areas of focus</h2>
+  </div>
+  <div class="grid3" id="services-grid"></div>
+</section>
+
+<section class="approach" id="approach">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How Dr. Patil works</div>
+      <h2>A straightforward path to recovery</h2>
+    </div>
+    <div class="approach-list" id="approach-list"></div>
+  </div>
+</section>
+
+<section class="wrap testimonial" id="testimonials">
+  <blockquote>"After my knee replacement, Dr. Patil's team checked in at every stage of recovery. I was back on my morning walks within two months."</blockquote>
+  <cite>— Sunita R., patient since 2022</cite>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="section-head">
+        <div class="eyebrow">Visit the Clinic</div>
+        <h2 style="color:var(--ivory)">Book a consultation</h2>
+      </div>
+      <div class="contact-info">
+        <div><b>Clinic</b><span>Patil Orthopedic &amp; Sports Injury Centre</span></div>
+        <div><b>Address</b><span>2nd Floor, Wellness Arcade, Thane West, Maharashtra</span></div>
+        <div><b>Phone</b><a href="tel:+912212345678">+91 22 1234 5678</a></div>
+        <div><b>Hours</b><span>Mon–Sat, 10:00 AM – 7:00 PM</span></div>
+      </div>
+    </div>
+    <div>
+      <form class="book" id="book-form">
+        <input type="text" placeholder="Full name" required>
+        <input type="tel" placeholder="Phone number" required>
+        <select required defaultValue="">
+          <option value="" disabled selected>Reason for visit</option>
+          <option>Joint pain</option>
+          <option>Sports injury</option>
+          <option>Fracture / trauma</option>
+          <option>Follow-up visit</option>
+          <option>Other</option>
+        </select>
+        <textarea placeholder="Anything you'd like Dr. Patil's team to know" rows="3"></textarea>
+        <button type="submit">Request Appointment</button>
+      </form>
+      <div class="confirm" id="confirm-msg" style="display:none;">Thanks — your request has been noted. The clinic will call you to confirm a time.</div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>© 2026 Dr. Shailesh Patil — Orthopedic Surgeon</span>
+  <span>Thane, Maharashtra</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
